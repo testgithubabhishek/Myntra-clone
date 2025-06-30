@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    display: flex;
+    background-color:white;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #cfc9c9;
+}
+.logo{
+    margin-left: 4%;
+    width: 53px;
+    
+}
+.mynlogo{
+    height: 40px;
+}
+.actionbar{
+    margin-right: 4%;
+}
+.nav_bar{
+    
+   min-width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 700;
+}
+.nav_bar a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+    padding: 28px 0px;
+    border-bottom: 5px solid white;
+    transition: border-bottom 0.3s ease-in-out 0s;
+}
+.nav_bar a:hover{
+    border-bottom: 3px solid #ff3f6c;
+}
+
+#super{
+    color: #ff3f6c;
+    font-size: 10px;
+}
+.searchbar{
+    min-width:200px;
+    width: 30%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.input_bar{
+    height: 40px;
+    padding: 10px;
+    flex-grow: 1;
+    color: #696e79;
+    background: #f5f5f6;
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+}
+.material-symbols-outlined{
+    height: 20px;
+    padding: 10px;
+    box-sizing: content-box;
+    background: #f5f5f6;
+    color: #282c3f;
+    border-radius: 4px 0px 0px 4px;
+}
+.actionbar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+.actioncontainer{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.actioncontainer .material-symbols-outlined{
+    background-color: white;
+}
+.actionname{
+    font-weight: 700;
+    font-size: 12px;
+}
+.bannercontainer{
+    margin: 40px 0px;
+}
+.bannerimage{
+    width: 100%;
+    transition: transform 0.3s ease-in-out 0s;
+}
+.bannerimage:hover{
+    transform: scale(1.04);
+}
+.category_heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0px 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.category_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    transition: transform 0.3s ease-in-out 0s;
+}
+.offersitem{
+    width: 250px;
+    transition: transform 0.4s ease-in-out 0s;
+}
+.categoryitem{
+    width: 250px;
+}
+.offersitem:hover{
+  transform: scale(1.04);
+}
+.categoryitem:hover{
+  transform: scale(1.04);
+}
